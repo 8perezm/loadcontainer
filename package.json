@@ -1,0 +1,22 @@
+{
+    "name": "loadcontainer",
+    "version": "1.0.0",
+    "description": "Container load testing API for CPU and memory stress tests",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "load-test",
+        "stress-test",
+        "kubernetes"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "swagger-ui-express": "^5.0.0",
+        "swagger-jsdoc": "^6.2.8"
+    }
+}
